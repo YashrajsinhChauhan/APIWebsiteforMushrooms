@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    padding: 1%;
+}
+.para{
+    font-weight: 500;
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 5px;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 7%;
+    background-color: white;
+}
+
+#searchBox{
+    height: 35px;
+    width: 200px;
+}
+
+.favLabel{
+    display: inline;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: large;
+    background-color: yellow;
+    
+}
+
+.labelContainer{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.button{
+    border: 1px solid black;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 5px;
+    color: black;
+    height: 35px;
+    width: 100px;
+}
+
+.button:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}  
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+
+#returnData{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#locations{
+    height: 40px;
+    width: 200px;
+
+}
+
+.dataCard{
+    display: grid;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid #b0bec5;
+    background-color:#eceff1 ;
+    grid-template-columns: 10% 90%;
+    cursor: pointer;
+}
+
+#description{
+    margin-left: 2%;
+    text-align: left;
+    font-weight: 500;
+    font-size: medium;
+}
+
+#name{
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-size: larger;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
